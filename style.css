@@ -1,0 +1,118 @@
+
+html{
+    font-family: Didot, serif;
+    font-size: 20px;
+}
+body{
+    font-family: Didot, serif;
+    background-color: black;
+    color:white;
+}
+h1 {
+    font-family: Didot, serif;
+    text-align: center;
+    margin-top: 10%;
+}
+
+h2 {
+    margin-top: 6%;
+}
+h4{
+    font-variant: small-caps;
+    margin-top: 5%;
+}
+
+.container{
+
+}
+.navbar a{
+    font-size: 23px;
+}
+
+.bg-image{
+    background-image: url('img/index.png');
+    background-size: cover;
+    height: 100vh;
+}
+
+.bg-image-menu
+{   background-image: url('img/menu-soups-blur.png');
+    background-size: cover;
+    height: 100%;
+
+}
+
+.jumbotron{
+	background-color: rgba(0,0,0, 0.6); /* Black w/opacity/see-through */
+
+}
+
+.opaque-dark{
+    background-color: rgba(0,0,0, 0.6); /* Black w/opacity/see-through */
+    width: 60%;
+
+}
+
+.narrow-margin{
+    width: 50%;
+}
+
+.small-text{
+    font-size: 18px;
+    text-align: justify;
+
+}
+
+.text-wrap-left{
+    margin-left: 5%;
+}
+
+
+.margin-left-8{
+    margin-left: 8%;
+}
+
+
+
+
+body.offcanvas-active{
+	overflow:hidden;
+}
+.offcanvas-header{ display:none; }
+
+@media (max-width: 992px) {
+  .offcanvas-header{ display:block; }
+  .navbar-collapse {
+    position: fixed;
+    top:0;
+    bottom: 0;
+    left: 100%;
+    width: 100%;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    overflow-y: auto;
+    visibility: hidden;
+    background-color: black;
+    transition: visibility .2s ease-in-out, transform .2s ease-in-out;
+  }
+  .navbar-collapse.show {
+    visibility: visible;
+    transform: translateX(-100%);
+  }
+  .narrow-margin{
+      width: 90%;
+  }
+  .container{
+      font-size: 19px;
+  }
+  .opaque-dark{
+      width: 100%;
+  }
+  .margin-left-8{
+      margin-left: 0;
+  }
+}
+
+.selector-for-some-widget {
+  box-sizing: content-box;
+}
